@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 438px;
+}
+
+
+.textContainer h1 {
+    font-weight: 500;
+    font-size: 52px;
+    margin-bottom: 2rem;
+}
+
+.textContainer h2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.containerFacture {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.featureText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+}
+
+.ContainerSection {
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.ContainerText {
+    display: flex;
+}
+
+.ContainerText span {
+    font-size: 20px;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    color: #fff
+}
+
+.textH2 {
+    width: 306px;
+    margin-top: 1rem;
+}
+
+.textH2 span {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Graphik Trial', sans-serif;
+}

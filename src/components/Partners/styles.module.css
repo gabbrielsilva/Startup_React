@@ -1,0 +1,26 @@
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 52px;
+    margin-bottom: 1rem;
+}
+
+.text h6 {
+    font-size: 20px;
+}
+
+.icon img {
+    margin: 3rem;
+}

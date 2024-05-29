@@ -1,0 +1,74 @@
+.container,
+.containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText {
+    margin-top: 3rem;
+}
+
+
+.cardCima,
+.cardBaixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cardMaior,
+.cardMenor {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+
+}
+
+.cardMaior {
+    height: 328px;
+    margin-right: 1rem;
+}
+
+.cardMenor {
+    height: 308px;
+    margin-bottom: 1.2rem;
+}
+
+.cardText {
+    display: flex;
+    margin: 1.5rem;
+}
+
+.cardText div span {
+    margin-left: 1rem;
+}
+
+.cardMaior text {
+    width: 320px;
+    height: 168px;
+    margin-left: 1.5rem;
+    color: #fff;
+}
+
+.cardMenor text {
+    width: 320px;
+    height: 144px;
+    margin-left: 1.5rem;
+    color: #fff;
+}
+
+
+.cardBaixo .cardMenor:first-child {
+    margin-top: -2rem;
+}
+
+.cardBaixo .cardMenor:last-child {
+    margin-top: -4.5rem;
+    margin-left: 1rem;
+}

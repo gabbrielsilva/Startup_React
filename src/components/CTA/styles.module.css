@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ctaContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1221px;
+    background-color: #343434;
+    border-radius: 33px;
+}
+
+.ctaContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.ctaContainer div h1 {
+    font-size: 52px;
+    width: 501px;
+    margin-left: 3rem;
+}
+
+.container .free {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 232px;
+    height: 52px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #4452FE;
+    margin: 2rem;
+    margin-left: -180px;
+}
